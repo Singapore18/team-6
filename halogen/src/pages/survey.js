@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import FormEg from '../form.js';
 
 class survey extends Component {
     render() {
@@ -6,6 +7,7 @@ class survey extends Component {
         //Form here
         <div>
             <h2> Survey </h2>
+            <FormEg/>
         </div>
         );
     }

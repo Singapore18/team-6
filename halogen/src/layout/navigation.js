@@ -9,10 +9,10 @@ import survey from "../pages/survey";
 import update from "../pages/update";
 import insights from "../pages/insights";
 // import styles from './index.sass';
-// import * as bs from 'bootstrap/dist/css/bootstrap.css';
+// import * as bs from 'bootstrap/dist/css/bootstrap.css
 // import * as bst from 'bootstrap/dist/css/bootstrap-theme.css';
 
-import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
+import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from "react-bootstrap";
 
 class MainNav extends React.Component {
   render() {
