@@ -20,14 +20,18 @@ class login extends Component {
 
         return(
         //Form here
-        <div>
+        <div id="login">
         
             <h2> Login </h2>
             <Form onSubmit={this.handleSubmit}>
                { formApi => (
-               <form onSubmit={formApi.submitForm}>    
+               <form onSubmit={formApi.submitForm}> 
+                    <div id = "padding">
                     <Text field="NRIC" placeholder='NRIC' />
+                    </div>
+                    <div id = "padding">
                     <Text field="passaword" type="password" placeholder='password' />
+                    </div>
                    
                     <button type="submit" className="mb-4 btn btn-primary" > 
                         Submit
