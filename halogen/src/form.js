@@ -86,35 +86,36 @@ export default class FormEg extends Component {
 
     render() {
       return (
-        <div class = "ui-grid-a">
+        <div id = "form">
         <Form onSubmit={this.handleSubmit}>
                { formApi => (
                <form onSubmit={formApi.submitForm}>    
-
+                    
                     <div id = "padding"> Full Name  &emsp;&emsp;&ensp;&nbsp;      <Text field="fullName" placeholder='Bob Tan' /></div>
                     <div id = "padding"> Email Address &emsp;&nbsp;<Text field="email" placeholder='bobtan@example.com' /></div>
                     <div id = "padding"> Age &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; <Text field="age" placeholder='10' /></div>
                     <div id = "padding"> Family Income &emsp;<Text field="income" placeholder='0' /></div>
                     <div id = "padding"><RadioGroup field="gender">
-                        <label> Male
+                        <label> Male &emsp;
                         <Radio value="male" />
                         </label>
-                        &emsp;
-                        <label> Female
+                        &emsp; &emsp;
+                        <label> Female &emsp;
                         <Radio value="female" />
                         </label>
                     </RadioGroup>
                     </div>
                     
                     {this.state.questions.map(q => 
-                        <div>
+                        <div id ="padding">
                         <text>{q.question}
+                        &nbsp;&nbsp;
                         <Select field="status" id="status" options={statusOptions} className="mb-4" />
                         </text>
                         </div>
                     )}
                      
-          
+                    
                     <button type="submit" className="mb-4 btn btn-primary" > 
                         Submit
                     </button>

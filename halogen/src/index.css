@@ -23,14 +23,14 @@ ul.header li {
 }
 ul.header {
   background-color: #ffd400;
-  padding: 0;
+  padding: 21px;
 }
 ul.header li a {
   color: black;
   font-weight: bold;
   text-decoration: none;
-  font-size:20px;
-  padding: 15px;
+  font-size:30px;
+  padding: 50px;
   display: inline-block;
 }
 .content {
@@ -53,9 +53,14 @@ ul.header li a {
 #padding {
   padding: 10px;
 }
+
 #top-right {
 float: right;
-position: relative;
+position: absolute;
 top: 0px;
 right: 0px;
 }
+
+#form {
+  font-size: 15px;
+  }
