@@ -34,7 +34,7 @@ ul.header li a {
   display: inline-block;
 }
 .content {
-  background-color: #FFF;
+  background-color: #fffde4;
   padding: 20px;
 }
 .content h2 {
@@ -52,4 +52,10 @@ ul.header li a {
 
 #padding {
   padding: 10px;
+}
+#top-right {
+float: right;
+position: relative;
+top: 0px;
+right: 0px;
 }

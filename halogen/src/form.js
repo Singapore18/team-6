@@ -91,14 +91,15 @@ export default class FormEg extends Component {
                { formApi => (
                <form onSubmit={formApi.submitForm}>    
 
-                    <div><Text field="fullName" placeholder='Full Name' /></div>
-                    <div><Text field="email" placeholder='Email Address' /></div>
-                    <div><Text field="age" placeholder='age' /></div>
-                    <div><Text field="income" placeholder='family income' /></div>
-                    <div><RadioGroup field="gender">
+                    <div id = "padding"> Full Name  &emsp;&emsp;&ensp;&nbsp;      <Text field="fullName" placeholder='Bob Tan' /></div>
+                    <div id = "padding"> Email Address &emsp;&nbsp;<Text field="email" placeholder='bobtan@example.com' /></div>
+                    <div id = "padding"> Age &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; <Text field="age" placeholder='10' /></div>
+                    <div id = "padding"> Family Income &emsp;<Text field="income" placeholder='0' /></div>
+                    <div id = "padding"><RadioGroup field="gender">
                         <label> Male
                         <Radio value="male" />
                         </label>
+                        &emsp;
                         <label> Female
                         <Radio value="female" />
                         </label>

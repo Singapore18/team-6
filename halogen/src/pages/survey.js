@@ -6,7 +6,7 @@ class survey extends Component {
         return(
         //Form here
         <div>
-            <h2> Survey </h2>
+            <h2></h2>
             <FormEg/>
         </div>
         );
