@@ -1,0 +1,31 @@
+MINDS
+For - Hi-jobs
+Purpose: Source & Secure jobs --> 2 sides (for employers & MINDs)
+
+Previously: No online 
+
+Scale
+Monthly waiting list --> 15-20 PwID Monthly
+120-200 PwID job seekers a year
+
+Requirements:
+Fieldboxes (simple form?)
+Resume with unique URL/QR code(for chat messages)
+Resume details: Interests, strengths, experience, fields of interest, support
+
+Halogen
+Requirements: Using data from surveys measure imporvement of students
+Keystones: Growth-orientedness, confidence, strategic thinking, team orientedness, personal productivity
+
+Current profile --> Export all data in CSV
+
+Problems: Unable to collect data from GDPR
+Too many questions
+Unable to generate insights efficiently
+
+Reqruiements - Reduce number of questions (~40) posed to students
+Backend solving data (ML)
+Visualisation of dataPrepare for longer study by capturing unique identifiers that do not violate PDPA
+
+
+UX: What kind of questions do you have? 
