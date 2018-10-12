@@ -41,7 +41,7 @@ export default class FormEg extends Component {
       super(props);
       this.state={
         questions:[
-          {"id":1,"question":"are you smart?","type":"scale"}, {"id":2,"question":"are you dumb?","type"
+          {"id":1,"question":"You are a reflective person","type":"scale"}, {"id":2,"question":"You are a confident person","type"
           :"qualitative"}
         ]
       }
@@ -89,6 +89,7 @@ export default class FormEg extends Component {
 
     render() {
       return (
+        <div class = "ui-grid-a">
         <Form onSubmit={this.handleSubmit}>
                { formApi => (
                <form onSubmit={formApi.submitForm}>    
@@ -122,6 +123,7 @@ export default class FormEg extends Component {
             </form>
                )}
         </Form>
+        </div>
       );
     }
   }

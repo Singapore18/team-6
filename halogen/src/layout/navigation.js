@@ -20,8 +20,9 @@ class MainNav extends React.Component {
         <HashRouter>
             <div>
 
-                <h1>Halogen</h1>
+                
             <ul className="header">
+            <li> <img src="https://halogen.sg/wp-content/uploads/2017/08/halogen-logo-1.png" alt="image" class="img-responsive"/> </li>
             <li> <NavLink to="/login"> Login </NavLink> </li>
             <li> <NavLink to="/survey"> Survey </NavLink> </li>
             <li> <NavLink to="/update"> Update </NavLink> </li>

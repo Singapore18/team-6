@@ -26,7 +26,7 @@ ul.header {
   padding: 0;
 }
 ul.header li a {
-  color: #FFF;
+  color: black;
   font-weight: bold;
   text-decoration: none;
   font-size:20px;
@@ -43,4 +43,13 @@ ul.header li a {
 }
 .content li {
   margin-bottom: 10px;
+}
+#login {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+#padding {
+  padding: 10px;
 }
